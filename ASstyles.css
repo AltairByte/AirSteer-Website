@@ -1,0 +1,204 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    background: linear-gradient(180deg, #161616, #393939);
+}
+html {
+    scroll-behavior: smooth;
+}
+nav{
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: auto;
+    background: linear-gradient(180deg, #0167a6, #309ad7);
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.home{
+    padding-top: 200px;
+    padding-bottom: 350px;
+}
+.process{
+    padding-top: 250px;
+    padding-bottom: 315px;   
+}
+
+
+.faq{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.tools{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section_heading{
+    font-size: 50px;
+    font-weight: 200;
+    color: #009DFF;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "serif";
+}
+
+.nav_item{
+    color: #0e0e0e;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    transition: color 0.2s ease;
+    font-family: "Teachers";
+}
+
+
+.nav_item, .spLink{
+    text-decoration: none;
+}
+
+.nav_item:hover, .spLink:hover{
+    color: #ecfffb;
+    cursor: grab;
+}
+
+.nav_item:focus, .spLink:focus{
+    color:#5d5d5d;
+}
+
+.name_heading{
+    font-size: 120px;
+    text-align: center;
+    font-family: "Anton";
+    letter-spacing: 20px;
+    padding-top: 10px;
+}
+.air{
+    color: #009DFF;
+}
+.steer{
+    color: white;
+}
+.name_subtext{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Teachers";
+    padding-top: 50px;
+}
+.by_subtext{
+    font-family: "Teachers";
+    color: white;
+    text-align: center;
+}
+.altairbyte{
+    color: #00FFCC;
+}
+
+.download_button{
+    color: black;
+    font-family: "Teachers";
+    background: linear-gradient(180deg, #009DFF, #61b0dd);
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 40px;
+    display: inline;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.download_button:hover{
+    background: linear-gradient(180deg, #4ca3d8, #c4d3db);
+    color: #5d5d5d;
+}
+.download_button:focus{
+    background: linear-gradient(180deg, #32607d, #61b0dd);
+}
+.download_row{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.process_subtext{
+    color: #ffffff;
+    font-family: "Teachers";
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.faq_title{
+    color: #f7f305;
+    font-family: "Teachers";
+    text-align: center;
+    padding-top: 10px;
+}
+
+.faq_subtext{
+    padding-top: 10px;
+    font-family: "Teachers";
+    max-width: 600px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+
+.links {
+    display: flex;
+    gap: 15px;
+    background: linear-gradient(0deg, #0167a6, #309ad7);
+    padding: 50px;
+    font-family: "Teachers";
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_row {
+    display: flex;
+    gap: 15px;
+}
+.spLink{
+    color: #0e0e0e;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: color 0.2s ease;
+}
+
+.contact_heading{
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color:#f5f5f1;
+    font-family: serif;
+}
+
+
+
+
+
+
+
